@@ -195,7 +195,7 @@ body{
     cursor: pointer;
     padding: 0 !important;
 }
-.page-work .work-item figure img:hover{
+.page-work .work-pictures .work-item figure img:hover{
     transform: rotate(5deg) scale(1.2);
 }
 .work-pictures .work-item figure img:hover{
