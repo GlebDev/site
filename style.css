@@ -1,0 +1,296 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+div{
+    display:block;
+}
+a:hover{
+    text-decoration: none;
+}
+
+
+
+
+body{
+    font-family: Trebuchet MS;
+    background: url(images/bg-tile.png);
+}
+.header{
+    text-align: center; 
+    height: 1000px;
+}
+.dark-section{
+    background: #23232e;  
+    color: white !important;
+}
+.light-section{
+     color: #464b4f !important; 
+}
+.h-01{
+    font-size: 80px;
+    font-weight: normal;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-bottom:  50px;
+    font-weight: bold;
+    text-align: center;
+}
+.h-03{
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-bottom:  20px;
+    font-weight: bold;
+}
+.copy-01{
+    font-size: 28px;
+    margin-bottom: 50px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 150%;
+    padding: 0 100px;
+    text-align: center; 
+}
+.copy-02{
+    font-size: 17px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 200%;
+}
+.copy-03, .page-work .filter-link, .page-signup .form-result {
+    text-rendering: optimizeLegibility;
+    font-family: Trebuchet MS;
+    font-size: 14px;
+    line-height: 1;
+}
+.page-photography,.page-signup,.page-footer{
+    text-align: center;
+}
+.header .copy-02 {
+    margin-bottom: 150px;
+    
+}
+.page-about .copy-02{
+    color: #818baa;
+}
+.arrow-down{
+    color: white;
+    margin-bottom: 11px;
+    display: inline-block;
+}
+
+.arrow-down:visited{
+    color: white;
+}
+.arrow-down .fa-stack{
+    transition: .5s;
+}
+.arrow-down:hover .fa-stack{
+    transform: translateY(11px);
+}
+.arrow-down:hover .fa-angle-down{
+    font-size: 1.3em;
+}
+.section{
+    padding: 100px 0;
+}
+.page-about .h-01,.page-work .h-01{
+    margin: 100px 0;
+}
+.columns{
+    padding:0 50px;
+}
+.page-work{
+    text-align: center;
+}
+.page-work .filter-link {
+  color: #818baa; 
+  margin: 0 29px;
+}
+.page-work .filter-link:hover {
+  color: #818baa;
+}
+.page-work .filter-link.active {
+  border-bottom: 2px solid #7b77c9;
+  padding-bottom: 3px;
+}
+.brand-logo #brand-logo {
+    height: 135px;
+    width: 135px;
+    fill: white;
+}
+.brand-logo {
+     padding: 80px 0 168px 0;
+}
+.page-work .work-filter {
+    margin-bottom: 60px;
+}
+.page-work .work-item figure,.page-photography .work-item figure {
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.page-work .work-item figure img {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.work-pictures .work-item  figure img {
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.page-work .work-item,.page-photography .work-item {
+    margin-bottom: 50px;
+    cursor: pointer;
+    padding: 0 !important;
+}
+.page-work .work-item figure img:hover{
+    transform: rotate(5deg) scale(1.2);
+}
+.work-pictures .work-item figure img:hover{
+    transform:scale(1.1);
+}
+.heading.h-02 {
+    font-family: Trebuchet MS;
+    font-size: 19px;
+    font-weight: normal;
+    line-height: 1;
+}
+.page-work .h-02 {
+    margin: 30px 0 15px 0;
+}
+.page-work .copy-03 {
+  color: #818baa; 
+}
+.page-work .button {
+    margin-top: 40px;
+}
+.button {
+    display: inline-block;
+    padding: 23px 63px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none !important;
+}
+.button.rounded {
+    border-radius: 3px;
+}
+.button.main {
+    background: #7b77c9;
+    color: white;
+    font-family: Trebuchet MS;
+    font-size: 14px;
+}
+.button:hover {
+    opacity: 0.7;
+    zoom: 1;
+}
+.page-photography .copy-01 {
+    margin-bottom: 50px;
+    padding: 0 60px;
+    color: #888a8b;
+}
+.page-photography .button {
+    margin-top: 66px;
+    padding: 23px 48px;
+}
+.page-signup #icon-infinity {
+    height: 47px;
+    width: 87px;
+    fill: white;
+}
+.page-signup .copy-02 {
+    color: white;
+    margin-top: 46px;
+    padding: 0 250px;
+}
+.page-signup input {
+    width: 338px;
+    margin-right: 7px;
+    color: black;
+}
+.page-signup input, .page-signup button {
+    padding: 0 20px;
+    font-family: Trebuchet MS;
+    font-size: 18px !important;
+    height: 60px;
+    border: none;
+    outline: none;
+}
+.page-signup button {
+    position: relative;
+    width: 215px;
+    cursor: pointer;
+}
+.page-signup .signup-form {
+    margin-top: 52px;
+}
+.page-footer .social-links {
+    margin-bottom: 90px ;
+}
+.page-footer .social-links a {
+    display: inline-block;
+    margin: 0 25px;
+    color: #b3b1dd;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    transition: all .4s ease;
+}
+.page-footer .social-links a:hover {
+    color: #7272aa;
+}
+.page-footer .copy-02 {
+    margin-bottom: 17px;
+}
