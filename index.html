@@ -1,202 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Lithium</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lithium</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link href="bootstrap/css/font-awesome.min.css" rel="stylesheet">	
+    <link href="bootstrap/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <section class="page-container">
-       <section class="header page-hero section dark-section">
+        <section class="header page-hero section dark-section">
             <div class="container">
                 <header>
-                  <div class="brand-logo">
-                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="brand-logo" x="0px" y="0px" viewBox="-4 -4 58 58" enable-background="new -4 -4 58 58" xml:space="preserve" class=" iconic-injected-svg inject-me"   >
-                      <path id="circle" d="M0.2,27.2c-0.2-1.9-0.3-3.4,0-5.3c0.1-0.4,0.2-0.8,0.2-1.1C2.2,9,12.2,0.2,24.2,0C32.3-0.1,39,3,44.1,9.4  c3,3.7,4.6,8.1,5.2,12.8c0.1,2.5,0.1,2.5,0,4.7c-0.1,0.5-0.2,0.8-0.2,1.3c-1.8,11.7-11.5,20.6-23.3,20.9c-9.9,0.3-17.4-4-22.5-12.5  C1.5,33.7,0.7,30.5,0.2,27.2z M2.3,24.5C2.1,36,11.4,47.1,24.8,47c13.1,0,22.4-10.6,22.4-22.4c0-11.9-9.4-22.5-22.5-22.5  C11.3,2.1,2.2,13.1,2.3,24.5z"></path>
-                      <path id="icon" d="M24.9,45.2c-3.4,0-6.6-2.5-7.7-5.6c-3-8.9-5.9-17.9-8.8-26.9c-0.3-1,0-1.2,0.9-1.2c3.6,0.1,7.4,3.1,8.5,6.7  c2.1,6.6,4.2,13.2,6.3,19.8c0.1,0.3,0.4,0.6,0.5,1c0.1-0.3,0.3-0.6,0.4-0.9c2.1-6.6,4.2-13.2,6.3-19.8c1.1-3.5,4.8-6.5,8.3-6.7  c1.6-0.1,1.7,0,1.2,1.5C38.3,21,35.6,29,33,37c-0.6,2-1.2,3.9-2.7,5.5C28.8,44.2,26.9,45.1,24.9,45.2z"></path>
-<!--                      <path id="circle-alt" d="M-3.2,27.6c-0.2-2.2-0.3-3.9,0-6c0.1-0.5,0.2-0.9,0.2-1.3c2-13.4,13.4-23.4,27.1-23.7  C33.3-3.4,41,0.1,46.8,7.4c3.4,4.2,5.2,9.2,5.9,14.6c0.1,2.8,0.1,2.8,0,5.3c-0.1,0.6-0.2,0.9-0.2,1.5c-2,13.3-13.1,23.4-26.5,23.8  C14.7,52.9,6.1,48,0.3,38.3C-1.7,35-2.6,31.4-3.2,27.6z M-0.8,24.6C-1,37.6,9.6,50.3,24.8,50.2c14.9,0,25.5-12.1,25.5-25.5  c0-13.5-10.7-25.6-25.6-25.6C9.4-0.9-0.9,11.6-0.8,24.6z"></path>-->
-                    </svg>
-                  </div>
-                </header>  
-               <h1 class="h-01">I love Design</h1>
-               <p class="copy-02">I'm glad that you visited my site where he can get to <br>know me and my work.</p>
-               <a class="arrow-down" href="#" >
-                   <span class="fa-stack fa-2x">
+                    <div class="brand-logo">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="brand-logo" x="0px" y="0px" viewBox="-4 -4 58 58" enable-background="new -4 -4 58 58" xml:space="preserve" class=" iconic-injected-svg inject-me">
+                            <path id="circle" d="M0.2,27.2c-0.2-1.9-0.3-3.4,0-5.3c0.1-0.4,0.2-0.8,0.2-1.1C2.2,9,12.2,0.2,24.2,0C32.3-0.1,39,3,44.1,9.4  c3,3.7,4.6,8.1,5.2,12.8c0.1,2.5,0.1,2.5,0,4.7c-0.1,0.5-0.2,0.8-0.2,1.3c-1.8,11.7-11.5,20.6-23.3,20.9c-9.9,0.3-17.4-4-22.5-12.5  C1.5,33.7,0.7,30.5,0.2,27.2z M2.3,24.5C2.1,36,11.4,47.1,24.8,47c13.1,0,22.4-10.6,22.4-22.4c0-11.9-9.4-22.5-22.5-22.5  C11.3,2.1,2.2,13.1,2.3,24.5z"></path>
+                            <path id="icon" d="M24.9,45.2c-3.4,0-6.6-2.5-7.7-5.6c-3-8.9-5.9-17.9-8.8-26.9c-0.3-1,0-1.2,0.9-1.2c3.6,0.1,7.4,3.1,8.5,6.7  c2.1,6.6,4.2,13.2,6.3,19.8c0.1,0.3,0.4,0.6,0.5,1c0.1-0.3,0.3-0.6,0.4-0.9c2.1-6.6,4.2-13.2,6.3-19.8c1.1-3.5,4.8-6.5,8.3-6.7  c1.6-0.1,1.7,0,1.2,1.5C38.3,21,35.6,29,33,37c-0.6,2-1.2,3.9-2.7,5.5C28.8,44.2,26.9,45.1,24.9,45.2z"></path>
+                            <!--                      <path id="circle-alt" d="M-3.2,27.6c-0.2-2.2-0.3-3.9,0-6c0.1-0.5,0.2-0.9,0.2-1.3c2-13.4,13.4-23.4,27.1-23.7  C33.3-3.4,41,0.1,46.8,7.4c3.4,4.2,5.2,9.2,5.9,14.6c0.1,2.8,0.1,2.8,0,5.3c-0.1,0.6-0.2,0.9-0.2,1.5c-2,13.3-13.1,23.4-26.5,23.8  C14.7,52.9,6.1,48,0.3,38.3C-1.7,35-2.6,31.4-3.2,27.6z M-0.8,24.6C-1,37.6,9.6,50.3,24.8,50.2c14.9,0,25.5-12.1,25.5-25.5  c0-13.5-10.7-25.6-25.6-25.6C9.4-0.9-0.9,11.6-0.8,24.6z"></path>-->
+                        </svg>
+                    </div>
+                </header>
+                <h1 class="h-01">I love Design</h1>
+                <p class="copy-02">I'm glad that you visited my site where he can get to
+                    <br>know me and my work.</p>
+                <a class="arrow-down" href="#">
+                    <span class="fa-stack fa-2x">
                        <i class="fa fa-circle-thin fa-stack-2x"></i>
                        <i class="fa fa-angle-down fa-stack-1x"></i>
                    </span>
-               </a>
+                </a>
             </div>
         </section>
         <section class="page-about section light-section">
             <div class="container">
                 <p class="copy-01 ">
-My name is Vlad Musienko, I'm a web designer. I love to draw and all that is connected with the design. In this area a long time ago and during this time I managed to create several successful projects used by people  all over the world. 
+                    My name is Vlad Musienko, I'm a web designer. I love to draw and all that is connected with the design. In this area a long time ago and during this time I managed to create several successful projects used by people all over the world.
                 </p>
                 <p class="copy-01 ">
-I love the simplicity in the design of web sites. As I see it,people, it's like my work. Naturally do not want to rest on our laurels and will continue further studies to improve soybean skills, creating new interesting creative projects.
+                    I love the simplicity in the design of web sites. As I see it,people, it's like my work. Naturally do not want to rest on our laurels and will continue further studies to improve soybean skills, creating new interesting creative projects.
                 </p>
                 <h1 class="dark-text h-01">what i do</h1>
                 <div class="row columns">
                     <aside class="col-sm-4">
                         <h3 class="heading h-03">TEMPLATE.</h3>
                         <p class="copy-02 ">
-Lately, I often create templates for WordPress. The portfolio is the presentation and the opportunity to buy them on the site Themeforest.
-                         </p>
+                            Lately, I often create templates for WordPress. The portfolio is the presentation and the opportunity to buy them on the site Themeforest.
+                        </p>
                     </aside>
                     <aside class="col-sm-4">
                         <h3 class="heading h-03">BRAND.</h3>
                         <p class="copy-02 ">
-Creating a brand is a very complex process aimed at the creation and positioning the unique persons of the company, its products and services.
-                         </p>
+                            Creating a brand is a very complex process aimed at the creation and positioning the unique persons of the company, its products and services.
+                        </p>
                     </aside>
                     <aside class="col-sm-4">
                         <h3 class="heading h-03">DREAMS.</h3>
                         <p class="copy-02 ">
-Lately, I often create templates for WordPress. The portfolio is the presentation and the opportunity to buy them on the site Themeforest.
-                         </p>
+                            Lately, I often create templates for WordPress. The portfolio is the presentation and the opportunity to buy them on the site Themeforest.
+                        </p>
                     </aside>
                 </div>
             </div>
         </section>
         <section class="page-work section dark-section">
             <div class="container">
-               <h1 class="h-01">MY WORK</h1>
+                <h1 class="h-01">MY WORK</h1>
                 <a href="#" class="mobile-filter-select">Filter</a>
-               <nav class="work-filter">
+                <nav class="work-filter">
                     <a href="#" class="filter-link active" data-group="all">All Works</a>
                     <a href="#" class="filter-link" data-group="landingpage">Landing Page</a>
                     <a href="#" class="filter-link" data-group="webdesign">Web Design</a>
                     <a href="#" class="filter-link" data-group="icondesign">Icon Design</a>
                     <a href="#" class="filter-link" data-group="template">Template</a>
-               </nav>
-            
-            <section  class="work-pictures">
-             <div class="row">
-               <div class="work-item col-md-4 col-sm-6 col-xs-12  all webdesign"  >
-                  <figure class="image-conteiner">
-                    <img src="images/work/web-one.jpg" alt="">
-                  </figure>
-                    <h2 class="heading h-02">Positionly gain more traffic</h2>
-                    <p class="copy-03">Web Design</p>
-                </div>
-                <div class="work-item col-md-4 col-sm-6 col-xs-12  all icondesign">
-                  <figure class="image-conteiner">
-                    <img src="images/work/icon-one.jpg" alt="">
-                  </figure>
-                    <h2 class="heading h-02">Flag - User Dashboard</h2>
-                    <p class="copy-03">Icon Design</p>
-                </div>
-                <div class="work-item col-md-4 col-sm-6 col-xs-12  all webdesign" >
-                  <figure class="image-conteiner">
-                    <img src="images/work/web-two.jpg" alt="">
-                  </figure>
-                    <h2 class="heading h-02">Google Maps - developers</h2>
-                    <p class="copy-03">Icon Design</p>
-                </div>
-                <div class="work-item col-md-4 col-sm-6 col-xs-12  all landingpage" >
-                    <figure class="image-container">
-                        <img src="images/work/landing-one.jpg" alt="">
-                    </figure>
-                    <h2 class="heading h-02">Djed Landing Page</h2>
-                    <p class="copy-03">Landing Page</p>
-                </div>
-                <div class="work-item col-md-4 col-sm-6 col-xs-12  all template" >
-                    <figure class="image-container">
-                        <img src="images/work/template-one.jpg" alt="">
-                    </figure>
-                    <h2 class="heading h-02">MG3 Website</h2>
-                    <p class="copy-03">Template</p>
-                </div>
+                </nav>
 
-                <div class="work-item col-md-4 col-sm-6 col-xs-12  all icondesign">
-                    <figure class="image-container">
-                        <img src="images/work/icon-two.jpg" alt="">
-                    </figure>
-                    <h2 class="heading h-02">Mixpanel Career</h2>
-                    <p class="copy-03">Icon Design</p>
-                </div>
-            </div>
-            </section>
-            <a href="#" class="button main rounded">See My Work</a>
+                <section class="work-pictures">
+                    <div class="row">
+                        <div class="work-item col-md-4 col-sm-6 col-xs-12  all webdesign">
+                            <figure class="image-conteiner">
+                                <img src="images/work/web-one.jpg" alt="">
+                            </figure>
+                            <h2 class="heading h-02">Positionly gain more traffic</h2>
+                            <p class="copy-03">Web Design</p>
+                        </div>
+                        <div class="work-item col-md-4 col-sm-6 col-xs-12  all icondesign">
+                            <figure class="image-conteiner">
+                                <img src="images/work/icon-one.jpg" alt="">
+                            </figure>
+                            <h2 class="heading h-02">Flag - User Dashboard</h2>
+                            <p class="copy-03">Icon Design</p>
+                        </div>
+                        <div class="work-item col-md-4 col-sm-6 col-xs-12  all webdesign">
+                            <figure class="image-conteiner">
+                                <img src="images/work/web-two.jpg" alt="">
+                            </figure>
+                            <h2 class="heading h-02">Google Maps - developers</h2>
+                            <p class="copy-03">Icon Design</p>
+                        </div>
+                        <div class="work-item col-md-4 col-sm-6 col-xs-12  all landingpage">
+                            <figure class="image-container">
+                                <img src="images/work/landing-one.jpg" alt="">
+                            </figure>
+                            <h2 class="heading h-02">Djed Landing Page</h2>
+                            <p class="copy-03">Landing Page</p>
+                        </div>
+                        <div class="work-item col-md-4 col-sm-6 col-xs-12  all template">
+                            <figure class="image-container">
+                                <img src="images/work/template-one.jpg" alt="">
+                            </figure>
+                            <h2 class="heading h-02">MG3 Website</h2>
+                            <p class="copy-03">Template</p>
+                        </div>
+
+                        <div class="work-item col-md-4 col-sm-6 col-xs-12  all icondesign">
+                            <figure class="image-container">
+                                <img src="images/work/icon-two.jpg" alt="">
+                            </figure>
+                            <h2 class="heading h-02">Mixpanel Career</h2>
+                            <p class="copy-03">Icon Design</p>
+                        </div>
+                    </div>
+                </section>
+                <a href="#" class="button main rounded">See My Work</a>
             </div>
         </section>
         <section class="page-photography section light-section ">
-           <div class="container">
-            <h1 class="dark-text h-01">photography</h1> 
-            <p class="copy-01">In my life there is a place for photos. I love to share experiences and beautiful moments of your life with others. You can see the first examples of the new work, or photos from my vacation or a walk in the park. I thought you would be interested.</p>
-            <section  class="work-pictures">
-               <div class="work-item col-md-4 col-sm-6 col-xs-12">
-                  <figure class="image-conteiner">
-                    <img src="images/photos/photo-one.jpg" alt="">
-                  </figure>
-                </div>
-                <div class="work-item col-md-4 col-sm-6 col-xs-12">
-                  <figure class="image-conteiner">
-                    <img src="images/photos/photo-two.jpg" alt="">
-                  </figure>
-                </div>
-                <div class="work-item col-md-4 col-sm-6 col-xs-12">
-                  <figure class="image-conteiner">
-                    <img src="images/photos/photo-three.jpg" alt="">
-                  </figure>
-                </div>
-                <div class="work-item col-md-4 col-sm-6 col-xs-12">
-                    <figure class="image-container">
-                        <img src="images/photos/photo-four.jpg" alt="">
-                    </figure>
-                </div>
-                <div class="work-item col-md-4 col-sm-6 col-xs-12">
-                    <figure class="image-container">
-                        <img src="images/photos/photo-five.jpg" alt="">
-                    </figure>
-                </div>
-                <div class="work-item col-md-4 col-sm-6 col-xs-12">
-                    <figure class="image-container">
-                        <img src="images/photos/photo-six.jpg" alt="">
-                    </figure>
-                </div>
-            </section>
-            <a href="#" class="button main rounded">See My Photoblog</a>
+            <div class="container">
+                <h1 class="dark-text h-01">photography</h1> 
+                <p class="copy-01">In my life there is a place for photos. I love to share experiences and beautiful moments of your life with others. You can see the first examples of the new work, or photos from my vacation or a walk in the park. I thought you would be interested.</p>
+                <section class="work-pictures">
+                    <div class="work-item col-md-4 col-sm-6 col-xs-12">
+                        <figure class="image-conteiner">
+                            <img src="images/photos/photo-one.jpg" alt="">
+                        </figure>
+                    </div>
+                    <div class="work-item col-md-4 col-sm-6 col-xs-12">
+                        <figure class="image-conteiner">
+                            <img src="images/photos/photo-two.jpg" alt="">
+                        </figure>
+                    </div>
+                    <div class="work-item col-md-4 col-sm-6 col-xs-12">
+                        <figure class="image-conteiner">
+                            <img src="images/photos/photo-three.jpg" alt="">
+                        </figure>
+                    </div>
+                    <div class="work-item col-md-4 col-sm-6 col-xs-12">
+                        <figure class="image-container">
+                            <img src="images/photos/photo-four.jpg" alt="">
+                        </figure>
+                    </div>
+                    <div class="work-item col-md-4 col-sm-6 col-xs-12">
+                        <figure class="image-container">
+                            <img src="images/photos/photo-five.jpg" alt="">
+                        </figure>
+                    </div>
+                    <div class="work-item col-md-4 col-sm-6 col-xs-12">
+                        <figure class="image-container">
+                            <img src="images/photos/photo-six.jpg" alt="">
+                        </figure>
+                    </div>
+                </section>
+                <a href="#" class="button main rounded">See My Photoblog</a>
             </div>
         </section>
         <section class="page-signup section dark-section">
-           <div class="container">
-               <div class="row">
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="icon-infinity" x="0px" y="0px" viewBox="0 12 50 26" enable-background="new 0 12 50 26" xml:space="preserve" class=" iconic-injected-svg inject-me">
-                <path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M24.8,20c1.4-1.4,2.8-2.7,4.1-3.9c5.2-4.6,12.5-4.4,17.2,0.4  c4.6,4.7,4.6,12.2,0,16.9c-4.7,4.8-12,5-17.2,0.4c-1.4-1.2-2.7-2.5-4.2-3.9c-1.5,1.4-2.9,2.8-4.4,4.1c-5.1,4.4-12.3,4.2-16.9-0.5  c-4.5-4.6-4.6-12-0.3-16.7c4.5-4.8,11.8-5.3,16.9-1C21.7,17,23.1,18.5,24.8,20z M19.6,25c-1.6-1.5-2.8-2.8-4.1-3.9  c-2.3-1.9-5.2-1.6-7.1,0.5c-1.8,2-1.8,5,0.1,6.9c1.9,2,4.9,2.2,7.1,0.3C17,27.7,18.1,26.4,19.6,25z M29.9,25c1.5,1.4,2.7,2.7,4,3.8  c2.3,1.9,5.2,1.7,7.1-0.3c1.8-1.9,1.9-4.9,0.1-6.9c-1.8-2-4.9-2.3-7.1-0.5C32.6,22.2,31.5,23.5,29.9,25z"></path>
-                </svg>
-                <p class="copy-02">Subscribe to our newsletter to receive news, updates, free stuff and new releases by email. I do not spam.</p>
-                <div class="signup-form">
-                    <form id="subscribe" action="" method="POST">
-                      <input type="email" name="email" id="email" placeholder="Enter your email..." required="" d="d">
-                      <button type="submit" class="button main" id="submit-form">Subscribe</button>
-                    </form>
+            <div class="container">
+                <div class="row">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="icon-infinity" x="0px" y="0px" viewBox="0 12 50 26" enable-background="new 0 12 50 26" xml:space="preserve" class=" iconic-injected-svg inject-me">
+                        <path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M24.8,20c1.4-1.4,2.8-2.7,4.1-3.9c5.2-4.6,12.5-4.4,17.2,0.4  c4.6,4.7,4.6,12.2,0,16.9c-4.7,4.8-12,5-17.2,0.4c-1.4-1.2-2.7-2.5-4.2-3.9c-1.5,1.4-2.9,2.8-4.4,4.1c-5.1,4.4-12.3,4.2-16.9-0.5  c-4.5-4.6-4.6-12-0.3-16.7c4.5-4.8,11.8-5.3,16.9-1C21.7,17,23.1,18.5,24.8,20z M19.6,25c-1.6-1.5-2.8-2.8-4.1-3.9  c-2.3-1.9-5.2-1.6-7.1,0.5c-1.8,2-1.8,5,0.1,6.9c1.9,2,4.9,2.2,7.1,0.3C17,27.7,18.1,26.4,19.6,25z M29.9,25c1.5,1.4,2.7,2.7,4,3.8  c2.3,1.9,5.2,1.7,7.1-0.3c1.8-1.9,1.9-4.9,0.1-6.9c-1.8-2-4.9-2.3-7.1-0.5C32.6,22.2,31.5,23.5,29.9,25z"></path>
+                    </svg>
+                    <p class="copy-02">Subscribe to our newsletter to receive news, updates, free stuff and new releases by email. I do not spam.</p>
+                    <div class="signup-form">
+                        <form id="subscribe" action="" method="POST">
+                            <input type="email" name="email" id="email" placeholder="Enter your email..." required="" d="d">
+                            <button type="submit" class="button main" id="submit-form">Subscribe</button>
+                        </form>
+                    </div>
                 </div>
-            </div> 
             </div>
         </section>
         <section class="page-footer section light-section">
             <div class="container">
                 <div class="social-links">
-                   <a href="#"><i class="fa fa-twitter fa-3x"></i></a>
-                   <a href="#"><i class="fa fa-dribbble fa-3x"></i></a>
-                   <a href="#"><i class="fa fa-behance fa-3x"></i></a>
-                   <a href="#"><i class="fa fa-instagram fa-3x"></i></a> 
+                    <a href="#"><i class="fa fa-twitter fa-3x"></i></a>
+                    <a href="#"><i class="fa fa-dribbble fa-3x"></i></a>
+                    <a href="#"><i class="fa fa-behance fa-3x"></i></a>
+                    <a href="#"><i class="fa fa-instagram fa-3x"></i></a> 
                 </div>
                 <p class="copy-02">Copyright © 2014. All Rights Reserved.</p>
                 <p class="copy-02">Made With Love By @AirTheme</p>
             </div>
         </section>
-    </section>  
+    </section>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="bootstrap/js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap/js/bootstrap.js"></script>
     <script src="script/script.js"></script>
 </body>
+
 </html>

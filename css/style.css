@@ -1,158 +1,246 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
-div{
-    display:block;
+div {
+    display: block;
 }
-a:hover{
+a:hover {
     text-decoration: none;
 }
-
-body{
+body {
     font-family: Arial, sans-serif;
     background: url(../images/bg-tile.png);
 }
-.header.section.dark-section{
-    text-align: center; 
+.header.section.dark-section {
+    text-align: center;
     padding-top: 0;
 }
-.dark-section{
-    background: #23232e;  
+.dark-section {
+    background: #23232e;
     color: white !important;
 }
-.light-section{
-     color: #464b4f !important; 
+.light-section {
+    color: #464b4f !important;
 }
-.h-01{
+.h-01 {
     font-size: 80px;
     font-weight: normal;
     line-height: 1;
     text-transform: uppercase;
-    margin-bottom:  50px;
+    margin-bottom: 50px;
     font-weight: bold;
     text-align: center;
 }
-.h-03{
+.h-03 {
     font-size: 18px;
     font-weight: normal;
     line-height: 1;
     text-transform: uppercase;
-    margin-bottom:  20px;
+    margin-bottom: 20px;
     font-weight: bold;
 }
-.copy-01{
+.copy-01 {
     font-size: 28px;
     margin-bottom: 50px;
     font-weight: 100;
     letter-spacing: 1px;
     line-height: 150%;
     padding: 0 100px;
-    text-align: center; 
+    text-align: center;
 }
-.copy-02{
+.copy-02 {
     font-size: 17px;
     font-weight: 100;
     letter-spacing: 1px;
     line-height: 200%;
 }
-.copy-03, .page-work .filter-link, .page-signup .form-result {
+.copy-03,
+.page-work .filter-link,
+.page-signup .form-result {
     text-rendering: optimizeLegibility;
     font-family: Arial, sans-serif;
     font-size: 14px;
     line-height: 1;
 }
-.page-photography,.page-signup,.page-footer{
+.page-photography,
+.page-signup,
+.page-footer {
     text-align: center;
 }
 .header .copy-02 {
     margin-bottom: 150px;
-    
 }
-.page-about .copy-02{
+.page-about .copy-02 {
     color: #818baa;
 }
-.arrow-down{
+.arrow-down {
     color: white;
     margin-bottom: 11px;
     display: inline-block;
 }
-
-.arrow-down:visited,.arrow-down:hover{
+.arrow-down:visited,
+.arrow-down:hover {
     color: white;
 }
-.arrow-down .fa-stack{
+.arrow-down .fa-stack {
+    -webkit-transition: .5s;
     transition: .5s;
 }
-.arrow-down:hover .fa-stack{
+.arrow-down:hover .fa-stack {
+    -webkit-transform: translateY(11px);
     transform: translateY(11px);
 }
-.arrow-down:hover .fa-angle-down{
+.arrow-down:hover .fa-angle-down {
     font-size: 1.3em;
 }
-.section{
+.section {
     padding: 100px 0;
 }
-.page-about .h-01,.page-work .h-01{
+.page-about .h-01,
+.page-work .h-01 {
     margin: 100px 0;
 }
-.columns{
-    padding:0 50px;
+.columns {
+    padding: 0 50px;
 }
-.page-work{
+.page-work {
     text-align: center;
 }
 .page-work .filter-link {
-  color: #818baa; 
-  margin: 0 29px;
-  text-decoration: none !important;
-  transition: all 0.3s ease;
+    color: #818baa;
+    margin: 0 29px;
+    text-decoration: none !important;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
 .page-work .filter-link:hover {
-  color: #818baa;
+    color: #818baa;
 }
 .page-work .filter-link.active {
-  border-bottom: 2px solid #7b77c9;
-  padding-bottom: 3px;
+    border-bottom: 2px solid #7b77c9;
+    padding-bottom: 3px;
 }
 .page-work .mobile-filter-select {
     display: none;
@@ -163,12 +251,13 @@ body{
     fill: white;
 }
 .brand-logo {
-     padding: 80px 0 168px 0;
+    padding: 80px 0 168px 0;
 }
 .page-work .work-filter {
     margin-bottom: 60px;
 }
-.page-work .work-item figure,.page-photography .work-item figure {
+.page-work .work-item figure,
+.page-photography .work-item figure {
     height: 300px;
     width: 300px;
     overflow: hidden;
@@ -176,42 +265,35 @@ body{
 }
 .page-work .work-item figure img {
     -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
     transition: all 1s ease;
     display: block;
     height: 100%;
     width: 100%;
 }
-
-.work-pictures .work-item  figure img {
+.work-pictures .work-item figure img {
     -webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
     transition: all 0.4s ease;
     display: block;
     height: 100%;
     width: 100%;
 }
-
-.page-work .work-item,.page-photography .work-item {
+.page-work .work-item,
+.page-photography .work-item {
     margin-bottom: 50px;
     cursor: pointer;
     padding: 0 !important;
     -webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
     transition: all 0.4s ease;
-    
-    
 }
-.page-work .work-pictures .work-item figure img:hover{
+.page-work .work-pictures .work-item figure img:hover {
+    -webkit-transform: rotate(5deg) scale(1.2);
     transform: rotate(5deg) scale(1.2);
 }
-.work-pictures .work-item figure img:hover{
-    transform:scale(1.1);
+.work-pictures .work-item figure img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
-.work-pictures .work-item:hover{
-
-}
-.work-pictures{
+.work-pictures .work-item:hover {} .work-pictures {
     padding: 1px;
 }
 .heading.h-02 {
@@ -224,7 +306,7 @@ body{
     margin: 30px 0 15px 0;
 }
 .page-work .copy-03 {
-  color: #818baa; 
+    color: #818baa;
 }
 .page-work .button {
     margin-top: 40px;
@@ -233,11 +315,9 @@ body{
     display: inline-block;
     padding: 23px 63px;
     -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     text-decoration: none !important;
 }
-
 .button.main {
     background: #7b77c9;
     color: white;
@@ -273,7 +353,8 @@ body{
     margin-bottom: 15px;
     color: black;
 }
-.page-signup input, .page-signup button {
+.page-signup input,
+.page-signup button {
     padding: 0 20px;
     font-family: Arial, sans-serif;
     font-size: 18px !important;
@@ -290,15 +371,14 @@ body{
     margin-top: 52px;
 }
 .page-footer .social-links {
-    margin-bottom: 90px ;
+    margin-bottom: 90px;
 }
 .page-footer .social-links a {
     display: inline-block;
     margin: 0 25px;
     color: #b3b1dd;
-    margin-bottom:10px;
+    margin-bottom: 10px;
     -webkit-transition: all .4s ease;
-    -moz-transition: all .4s ease;
     transition: all .4s ease;
 }
 .page-footer .social-links a:hover {
@@ -307,180 +387,155 @@ body{
 .page-footer .copy-02 {
     margin-bottom: 17px;
 }
-
 /*media*/
+
 @media only screen and (min-width: 768px) and (max-width: 980px) {
-  
-
-  .page-about .columns {
-    padding: 0 40px;
-  }
-
-  .page-work {
-    overflow: hidden;
-  }
-
-  .page-photography .work-item {
-    margin-bottom:20px;
-  }
-
- 
-    .page-signup .copy-02{
+    .page-about .columns {
+        padding: 0 40px;
+    }
+    .page-work {
+        overflow: hidden;
+    }
+    .page-photography .work-item {
+        margin-bottom: 20px;
+    }
+    .page-signup .copy-02 {
         padding: 75px 0;
-        
     }
 }
 @media only screen and (max-width: 767px) {
-  .page-container {
-    overflow: hidden;
-  }
-
-  .section {
-    padding: 50px 0;
-  }
-
-
-  .h-01 {
-    font-size: 36px !important;
-  }
-
-  .page-hero .brand-logo {
-    padding: 20px 0 20px 0;
-  }
-
-  .page-hero .h-01 {
-    margin-bottom: 20px;
-  }
-
-  .page-hero .copy-02 {
-    padding: 0 40px;
-    margin-bottom: 30px;
-  }
-
-  .page-about .h-01 {
-    margin: 40px 0 40px 0;
-  }
-  .page-about .h-03 {
-    margin-bottom: 10px;
-  }
-  .page-about .copy-01 {
-    font-size: 18px;
-    line-height: 24px;
-  }
-  .page-about .copy-02 {
-    line-height: 24px;
-  }
-  .page-about .columns {
-    display: block;
-  }
-  .page-about aside {
-    float: none;
-    width: 100%;
-    padding: 0 20px;
-    margin: 0 0 30px 0;
-    text-align: center;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-
-  .page-work .h-01 {
-    margin-bottom: 20px;
-     margin-top: 40px; 
-  }
-  .page-work .mobile-filter-select {
-    position: relative;
-    display: block;
-    margin: 30px 0;
-    font-family: Arial,sans-serif;
-    font-size: 14px;
-    color: white;
-    text-align: center;
-    text-decoration: none !important;
-  }
-  .page-work .mobile-filter-select:after {
-    content: "+";
-    position: relative;
-    left: 5px;
-  }
-  .page-work .mobile-filter-select.opened:after {
-    content: "-";
-  }
-  .page-work .work-filter {
-    display: none;
-    height: 145px;
-  }
-  .page-work .work-filter .filter-link {
-    position: relative;
-    text-align: center;
-    display: block;
-    margin-bottom: 15px;
-    border: none;
-    padding: 0;
-  }
-  .page-work .work-filter a.active:after {
-    content: "";
-    display: block;
-    height: 3px;
-    width: 60px;
-    text-align: center;
-    position: absolute;
-    bottom: -8px;
-    left: 50%;
-    transform: translateX(-50%);
-    height: 2px;
-    width: 60px;
-    background: #7b77c9;
-  }
-
-  .page-work .button {
-    margin-top: 0;
-  }
-
-  .page-photography .h-01 {
-    margin: 0px 0 40px 0;
-  }
-  .page-photography .copy-01 {
-    font-size: 18px;
-    line-height: 24px;
-    padding: 0 20px;
-  }
-  .page-photography .work-item {
-    float: none;
-    margin: 0 auto 10px auto;
-    display: inline-block;
-  }
-  .page-photography .button {
-    margin-top: 40px;
-  }
-
-  .page-signup .copy-02 {
-    padding: 0 20px;
-  }
-  .page-signup input, .page-signup button {
-    width: 90%;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-  .page-signup input {
-    margin-right: auto;
-    padding: 18px 20px;
-  }
-
-  .page-footer .social-links {
-    margin: 40px 0;
-  }
-  .page-footer .social-links a {
-    margin: 0 10px;
-  }
-  .page-footer .copy-02 {
-    margin-bottom: 10px;
-    font-size: 12px;
-    line-height: 12px;
-  }
+    .page-container {
+        overflow: hidden;
+    }
+    .section {
+        padding: 50px 0;
+    }
+    .h-01 {
+        font-size: 36px !important;
+    }
+    .page-hero .brand-logo {
+        padding: 20px 0 20px 0;
+    }
+    .page-hero .h-01 {
+        margin-bottom: 20px;
+    }
+    .page-hero .copy-02 {
+        padding: 0 40px;
+        margin-bottom: 30px;
+    }
+    .page-about .h-01 {
+        margin: 40px 0 40px 0;
+    }
+    .page-about .h-03 {
+        margin-bottom: 10px;
+    }
+    .page-about .copy-01 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .page-about .copy-02 {
+        line-height: 24px;
+    }
+    .page-about .columns {
+        display: block;
+    }
+    .page-about aside {
+        float: none;
+        width: 100%;
+        padding: 0 20px;
+        margin: 0 0 30px 0;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .page-work .h-01 {
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+    .page-work .mobile-filter-select {
+        position: relative;
+        display: block;
+        margin: 30px 0;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        color: white;
+        text-align: center;
+        text-decoration: none !important;
+    }
+    .page-work .mobile-filter-select:after {
+        content: "+";
+        position: relative;
+        left: 5px;
+    }
+    .page-work .mobile-filter-select.opened:after {
+        content: "-";
+    }
+    .page-work .work-filter {
+        display: none;
+        height: 145px;
+    }
+    .page-work .work-filter .filter-link {
+        position: relative;
+        text-align: center;
+        display: block;
+        margin-bottom: 15px;
+        border: none;
+        padding: 0;
+    }
+    .page-work .work-filter a.active:after {
+        content: "";
+        display: block;
+        height: 3px;
+        width: 60px;
+        text-align: center;
+        position: absolute;
+        bottom: -8px;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        height: 2px;
+        width: 60px;
+        background: #7b77c9;
+    }
+    .page-work .button {
+        margin-top: 0;
+    }
+    .page-photography .h-01 {
+        margin: 0px 0 40px 0;
+    }
+    .page-photography .copy-01 {
+        font-size: 18px;
+        line-height: 24px;
+        padding: 0 20px;
+    }
+    .page-photography .work-item {
+        float: none;
+        margin: 0 auto 10px auto;
+        display: inline-block;
+    }
+    .page-photography .button {
+        margin-top: 40px;
+    }
+    .page-signup .copy-02 {
+        padding: 0 20px;
+    }
+    .page-signup input,
+    .page-signup button {
+        width: 90%;
+        box-sizing: border-box;
+    }
+    .page-signup input {
+        margin-right: auto;
+        padding: 18px 20px;
+    }
+    .page-footer .social-links {
+        margin: 40px 0;
+    }
+    .page-footer .social-links a {
+        margin: 0 10px;
+    }
+    .page-footer .copy-02 {
+        margin-bottom: 10px;
+        font-size: 12px;
+        line-height: 12px;
+    }
 }
-
-
-
-
