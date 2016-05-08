@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function() {
     $('.arrow-down').on('click', function(e) {
       e.preventDefault();
       return $("html,body").animate({
